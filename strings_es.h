@@ -1,6 +1,6 @@
 /**
  * strings_en.h
- * engligh strings for
+ * spanish strings for
  * WiFiManager, a library for the ESP8266/Arduino platform
  * for configuration of WiFi credentials using a Captive Portal
  * 
@@ -31,7 +31,7 @@ const char HTTP_SCRIPT[]           PROGMEM = "<script>function c(l){"
 
 const char HTTP_HEAD_END[]         PROGMEM = "</head><body class='{c}'><div class='wrap'>"; // {c} = _bodyclass
 // example of embedded logo, base64 encoded inline, No styling here
-// const char HTTP_ROOT_MAIN[]        PROGMEM = "<img title=' alt=' src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAADQElEQVRoQ+2YjW0VQQyE7Q6gAkgFkAogFUAqgFQAVACpAKiAUAFQAaECQgWECggVGH1PPrRvn3dv9/YkFOksoUhhfzwz9ngvKrc89JbnLxuA/63gpsCmwCADWwkNEji8fVNgotDM7osI/x777x5l9F6JyB8R4eeVql4P0y8yNsjM7KGIPBORp558T04A+CwiH1UVUItiUQmZ2XMReSEiAFgjAPBeVS96D+sCYGaUx4cFbLfmhSpnqnrZuqEJgJnd8cQplVLciAgX//Cf0ToIeOB9wpmloLQAwpnVmAXgdf6pwjpJIz+XNoeZQQZlODV9vhc1Tuf6owrAk/8qIhFbJH7eI3eEzsvydQEICqBEkZwiALfF70HyHPpqScPV5HFjeFu476SkRA0AzOfy4hYwstj2ZkDgaphE7m6XqnoS7Q0BOPs/sw0kDROzjdXcCMFCNwzIy0EcRcOvBACfh4k0wgOmBX4xjfmk4DKTS31hgNWIKBCI8gdzogTgjYjQWFMw+o9LzJoZ63GUmjWm2wGDc7EvDDOj/1IVMIyD9SUAL0WEhpriRlXv5je5S+U1i2N88zdPuoVkeB+ls4SyxCoP3kVm9jsjpEsBLoOBNC5U9SwpGdakFkviuFP1keblATkTENTYcxkzgxTKOI3jyDxqLkQT87pMA++H3XvJBYtsNbBN6vuXq5S737WqHkW1VgMQNXJ0RshMqbbT33sJ5kpHWymzcJjNTeJIymJZtSQd9NHQHS1vodoFoTMkfbJzpRnLzB2vi6BZAJxWaCr+62BC+jzAxVJb3dmmiLzLwZhZNPE5e880Suo2AZgB8e8idxherqUPnT3brBDTlPxO3Z66rVwIwySXugdNd+5ejhqp/+NmgIwGX3Py3QBmlEi54KlwmjkOytQ+iJrLJj23S4GkOeecg8G091no737qvRRdzE+HLALQoMTBbJgBsCj5RSWUlUVJiZ4SOljb05eLFWgoJ5oY6yTyJp62D39jDANoKKcSocPJD5dQYzlFAFZJflUArgTPZKZwLXAnHmerfJquUkKZEgyzqOb5TuDt1P3nwxobqwPocZA11m4A1mBx5IxNgRH21ti7KbAGiyNn3HoF/gJ0w05A8xclpwAAAABJRU5ErkJggg==' /><h1>{v}</h1><h3>WiFiManager</h3>";
+//const char HTTP_ROOT_MAIN[]        PROGMEM = "<img title=' alt=' src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAAAiCAYAAACp43wlAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAABPFJREFUeNrUW11u2kAQ3iAOwHOlSu4JQk4AeW6kkBNgnyDhAgV6AcgJDCcIldJnnBPEOQFUSH2Ne4J0Bg8KMbuzP16DM9KGBMN6d775+WbWORMK+St+BPASwujA6Eo+ksB4gjH7In6uVfNcXX3vwUtb+JEM7/f4+Duz/ma86dFe2jRaij2lMF5gLET0NTOcu6vQkVDcI4O5U9nFMwkQuNAJgSEsbhLJgAFA3oRfGQAgU0NF4V7uYPRhBA73msEYg/LWzD1QT7GjcS2K8zcKYKDlrCzBEGQdsQSMtvAvLQuPeIYxdARDkB5WpHSV9EvsYzf/5AAQ8oyl8YbloLgpz7fEmxH8fCgBxMGM5G1VyR3M/4z32PeQyckU6BeMmLzCt7QrXjnOP2kWErhKMMbN9/4+J49gAYRYn0DYOiYYoUW4TSmO7yTw6FGuEjbplx6X2CBZR4rk39uL0SpGEjls9JqxyFQBRkBeLjSGNVYyqHwONLRbDx6RwD0uC/O3SV9Kfe8A6TBMYCC7ACBtKSgAsyAmkym8ZGa7E/AqVaLMYL6FMs7zHjvb7oWjsjnbmW1HTmWHe7kxK23/OdW9oRw35ABRbSQlxSuFro98+SzVLQGjVJc6YAbKiCyVl2ytPGdrgapucARmBPNKqXizhmn5lrl270A9E2swPipvUdE+d5HlgzR0VJZqk6MIeEfAWHoC4UpVoHE5MBL1lH+yNxsGX1weERSOrs6ZArDFhKp1TQFZc4A8aSpKBGVEzKoq72gxlp4x5IAzll81rpgCDhAdE2qR9a4qBIa3dLV0ThD/fci5kmVhU5Doa88QmFv4PCbYqY6FeQpX9w7zpUwB2bKsM1Ljzq9ZAdtW6XqfZQ1Mqu8CMH0AZgCglLJECFddhuqmTDIXDAngFBgbGF8R3AtPYLQE0x1u7NUTuOlLywIIlfgAoMQll9n37B3KpKmpu9R9ptyq3UHAWineIM1dcd7ZKBR5KYFiWwSFrqAQ1Q0ZK3f1Pn8hxg1EBOBtO4R4FXknXdfAXTQklTdW5xfU88ksQek5bDTkFuh0OqhnX3UU3GfUYFoi2A75ZgnMxGEhVYSrMuHsVDXJJRIHtjBEBmUJTGDjJRCuQk0yNwmdibWHYCsl+np2MPJwfWyZbQkD9cpMKvUiMInm452aeEerVCKu3iOmW33mxpHJaK8RMGhF4AVLhm62Db0j0FBW02T+xMzTcyAoviQVsqOLvIusFNdub0T0rapC0CaZJ8xc6IGjkyVpjfK1tNfCU0olRU3fyi5c5ZvOlHVSfhj0aaRRiWXohetbmSbzDx7FemJ9c8khIPiAA4xXzAv0sINW4HNc7fBSMly5JPOx5vqSThU/hYcEZK244GddN5fORiaO1qrrW7lV5u9n4VyVvdw+IpQ/yKCurk8sTcnC0XqH1P192aO5AVFazjvW1H5xpbplKvOBJhTuugIhgJISC/pD7xs91nQKQIpxvifsHjobGFDdsJLaA7l8vLmhnpFJW6Vd15DlreI0aMNzYLgkcxnjqusZujEgqSjfGZU+THfkynwHSt6K8NuvcqopnACh6vvCoCWiSsIDEzAqSeZqUHYHSmMPxobrOlqPq7lX6GFLpEtWzClv1xaYk2eYbjilzRWTJ75/XyKZq3MKVunxZkq58Nowca/F+z8jmfzTzlzC0BIDKi6V/wIMALZ9xvjmA5KBAAAAAElFTkSuQmCC'/><h1>{v}</h1><h3>WiFiManager</h3>";
 const char HTTP_ROOT_MAIN[]        PROGMEM = "<h1>{v}</h1><h3>WiFiManager</h3>";
 const char * const HTTP_PORTAL_MENU[] PROGMEM = {
 "<form action='/wifi'    method='get'><button>Configurar WiFi</button></form><br/>\n", // MENU_WIFI
@@ -109,19 +109,19 @@ const char HTTP_STYLE[]            PROGMEM = "<style>"
 
 #ifndef WM_NOHELP
 const char HTTP_HELP[]             PROGMEM =
- "<br/><h3>Available Pages</h3><hr>"
+ "<br/><h3>Paginas disponibles</h3><hr>"
  "<table class='table'>"
  "<thead><tr><th>Page</th><th>Function</th></tr></thead><tbody>"
  "<tr><td><a href='/'>/</a></td>"
- "<td>Menu page.</td></tr>"
+ "<td>Menú.</td></tr>"
  "<tr><td><a href='/wifi'>/wifi</a></td>"
  "<td>Show WiFi scan results and enter WiFi configuration.(/0wifi noscan)</td></tr>"
  "<tr><td><a href='/wifisave'>/wifisave</a></td>"
  "<td>Save WiFi configuration information and configure device. Needs variables supplied.</td></tr>"
  "<tr><td><a href='/param'>/param</a></td>"
- "<td>Parameter page</td></tr>"
+ "<td>Parámetros</td></tr>"
  "<tr><td><a href='/info'>/info</a></td>"
- "<td>Information page</td></tr>"
+ "<td>Información</td></tr>"
  "<tr><td><a href='/u'>/u</a></td>"
  "<td>OTA Update</td></tr>"
  "<tr><td><a href='/close'>/close</a></td>"
@@ -129,7 +129,7 @@ const char HTTP_HELP[]             PROGMEM =
  "<tr><td>/exit</td>"
  "<td>Exit Config Portal, configportal will close</td></tr>"
  "<tr><td>/restart</td>"
- "<td>Reboot the device</td></tr>"
+ "<td>Reiniciar</td></tr>"
  "<tr><td>/erase</td>"
  "<td>Erase WiFi configuration and reboot Device. Device will not reconnect to a network until new WiFi configuration data is entered.</td></tr>"
  "</table>"
@@ -138,9 +138,9 @@ const char HTTP_HELP[]             PROGMEM =
 const char HTTP_HELP[]             PROGMEM = "";
 #endif
 
-const char HTTP_UPDATE[] PROGMEM = "Upload New Firmware<br/><form method='POST' action='u' enctype='multipart/form-data' onchange=\"(function(el){document.getElementById('uploadbin').style.display = el.value=='' ? 'none' : 'initial';})(this)\"><input type='file' name='update' accept='.bin,application/octet-stream'><button id='uploadbin' type='submit' class='h D'>Update</button></form><small><a href='http://192.168.4.1/update' target='_blank'>* May not function inside captive portal, Open in browser http://192.168.4.1</a><small>";
-const char HTTP_UPDATE_FAIL[] PROGMEM = "<div class='msg D'><strong>Update Failed!</strong><Br/>Reboot device and try again</div>";
-const char HTTP_UPDATE_SUCCESS[] PROGMEM = "<div class='msg S'><strong>Update Successful.  </strong> <br/> Device Rebooting now...</div>";
+const char HTTP_UPDATE[] PROGMEM = "Cargar nuevo firmware<br/><form method='POST' action='u' enctype='multipart/form-data' onchange=\"(function(el){document.getElementById('uploadbin').style.display = el.value=='' ? 'none' : 'initial';})(this)\"><input type='file' name='update' accept='.bin,application/octet-stream'><button id='uploadbin' type='submit' class='h D'>Update</button></form><small><a href='http://192.168.4.1/update' target='_blank'>* May not function inside captive portal, Open in browser http://192.168.4.1</a><small>";
+const char HTTP_UPDATE_FAIL[] PROGMEM = "<div class='msg D'><strong>Carga fallida!</strong><Br/>Reboot device and try again</div>";
+const char HTTP_UPDATE_SUCCESS[] PROGMEM = "<div class='msg S'><strong>Carga exitosa.  </strong> <br/> Reiniciando ahora...</div>";
 
 #ifdef WM_JSTEST
 const char HTTP_JS[] PROGMEM = 
@@ -167,9 +167,9 @@ const char HTTP_JS[] PROGMEM =
 	const char HTTP_INFO_esphead[]    PROGMEM = "<h3>esp32</h3><hr><dl>";
 	const char HTTP_INFO_chiprev[]    PROGMEM = "<dt>Chip Rev</dt><dd>{1}</dd>";
   	const char HTTP_INFO_lastreset[]  PROGMEM = "<dt>Last reset reason</dt><dd>CPU0: {1}<br/>CPU1: {2}</dd>";
-  	const char HTTP_INFO_aphost[]     PROGMEM = "<dt>Acccess Point Hostname</dt><dd>{1}</dd>";  
+  	const char HTTP_INFO_aphost[]     PROGMEM = "<dt>Nombre del AP</dt><dd>{1}</dd>";  
     const char HTTP_INFO_psrsize[]    PROGMEM = "<dt>PSRAM Size</dt><dd>{1} bytes</dd>";
-	const char HTTP_INFO_temp[]       PROGMEM = "<dt>Temperature</dt><dd>{1} C&deg; / {2} F&deg;</dd><dt>Hall</dt><dd>{3}</dd>";    
+	const char HTTP_INFO_temp[]       PROGMEM = "<dt>Temperatura</dt><dd>{1} C&deg; / {2} F&deg;</dd><dt>Hall</dt><dd>{3}</dd>";    
 #else
 	const char HTTP_INFO_esphead[]    PROGMEM = "<h3>esp8266</h3><hr><dl>";
 	const char HTTP_INFO_fchipid[]    PROGMEM = "<dt>Flash Chip ID</dt><dd>{1}</dd>";
@@ -180,14 +180,14 @@ const char HTTP_JS[] PROGMEM =
 #endif
 
 const char HTTP_INFO_memsmeter[]  PROGMEM = "<br/><progress value='{1}' max='{2}'></progress></dd>";
-const char HTTP_INFO_memsketch[]  PROGMEM = "<dt>Memory - Sketch Size</dt><dd>Used / Total bytes<br/>{1} / {2}";
-const char HTTP_INFO_freeheap[]   PROGMEM = "<dt>Memory - Free Heap</dt><dd>{1} bytes available</dd>"; 
+const char HTTP_INFO_memsketch[]  PROGMEM = "<dt>Memoria - Tamaño del programa</dt><dd>Used / Total bytes<br/>{1} / {2}";
+const char HTTP_INFO_freeheap[]   PROGMEM = "<dt>Memoria - Libre</dt><dd>{1} bytes available</dd>"; 
 const char HTTP_INFO_wifihead[]   PROGMEM = "<br/><h3>WiFi</h3><hr>";
-const char HTTP_INFO_uptime[]     PROGMEM = "<dt>Uptime</dt><dd>{1} Mins {2} Secs</dd>";
+const char HTTP_INFO_uptime[]     PROGMEM = "<dt>Encendido</dt><dd>{1} Mins {2} Secs</dd>";
 const char HTTP_INFO_chipid[]     PROGMEM = "<dt>Chip ID</dt><dd>{1}</dd>";
-const char HTTP_INFO_idesize[]    PROGMEM = "<dt>Flash Size</dt><dd>{1} bytes</dd>";
-const char HTTP_INFO_sdkver[]     PROGMEM = "<dt>SDK Version</dt><dd>{1}</dd>";
-const char HTTP_INFO_cpufreq[]    PROGMEM = "<dt>CPU Frequency</dt><dd>{1}MHz</dd>";
+const char HTTP_INFO_idesize[]    PROGMEM = "<dt>Tamaño de la Flash</dt><dd>{1} bytes</dd>";
+const char HTTP_INFO_sdkver[]     PROGMEM = "<dt>Versión del SDK</dt><dd>{1}</dd>";
+const char HTTP_INFO_cpufreq[]    PROGMEM = "<dt>Frecuencia CPU</dt><dd>{1}MHz</dd>";
 const char HTTP_INFO_apip[]       PROGMEM = "<dt>Access Point IP</dt><dd>{1}</dd>";
 const char HTTP_INFO_apmac[]      PROGMEM = "<dt>Access Point MAC</dt><dd>{1}</dd>";
 const char HTTP_INFO_apssid[]     PROGMEM = "<dt>SSID</dt><dd>{1}</dd>";
@@ -196,44 +196,44 @@ const char HTTP_INFO_staip[]      PROGMEM = "<dt>Station IP</dt><dd>{1}</dd>";
 const char HTTP_INFO_stagw[]      PROGMEM = "<dt>Station Gateway</dt><dd>{1}</dd>";
 const char HTTP_INFO_stasub[]     PROGMEM = "<dt>Station Subnet</dt><dd>{1}</dd>";
 const char HTTP_INFO_dnss[]       PROGMEM = "<dt>DNS Server</dt><dd>{1}</dd>";
-const char HTTP_INFO_host[]       PROGMEM = "<dt>Hostname</dt><dd>{1}</dd>";
-const char HTTP_INFO_stamac[]     PROGMEM = "<dt>Station MAC</dt><dd>{1}</dd>";
-const char HTTP_INFO_conx[]       PROGMEM = "<dt>Connected</dt><dd>{1}</dd>";
-const char HTTP_INFO_autoconx[]   PROGMEM = "<dt>Autoconnect</dt><dd>{1}</dd>";
+const char HTTP_INFO_host[]       PROGMEM = "<dt>Nombre del host</dt><dd>{1}</dd>";
+const char HTTP_INFO_stamac[]     PROGMEM = "<dt>MAC</dt><dd>{1}</dd>";
+const char HTTP_INFO_conx[]       PROGMEM = "<dt>Connectado</dt><dd>{1}</dd>";
+const char HTTP_INFO_autoconx[]   PROGMEM = "<dt>Autoconexión</dt><dd>{1}</dd>";
 
 // Strings
-const char S_y[]                  PROGMEM = "Yes";
+const char S_y[]                  PROGMEM = "Si";
 const char S_n[]                  PROGMEM = "No";
-const char S_enable[]             PROGMEM = "Enabled";
-const char S_disable[]            PROGMEM = "Disabled";
+const char S_enable[]             PROGMEM = "Habilitado";
+const char S_disable[]            PROGMEM = "Deshabilitado";
 const char S_GET[]                PROGMEM = "GET";
 const char S_POST[]               PROGMEM = "POST";
-const char S_NA[]                 PROGMEM = "Unknown";
+const char S_NA[]                 PROGMEM = "Desconocido";
 const char S_passph[]             PROGMEM = "********";
-const char S_titlewifisaved[]     PROGMEM = "Credentials Saved";
-const char S_titlewifisettings[]  PROGMEM = "Settings Saved";
+const char S_titlewifisaved[]     PROGMEM = "Credenciales guardadas";
+const char S_titlewifisettings[]  PROGMEM = "Configuración guardada";
 const char S_titlewifi[]          PROGMEM = "Config ESP";
 const char S_titleinfo[]          PROGMEM = "Info";
-const char S_titleparam[]         PROGMEM = "Setup";
-const char S_titleparamsaved[]    PROGMEM = "Setup Saved";
-const char S_titleexit[]          PROGMEM = "Exit";
-const char S_titlereset[]         PROGMEM = "Reset";
-const char S_titleerase[]         PROGMEM = "Erase";
-const char S_titleclose[]         PROGMEM = "Close";
-const char S_options[]            PROGMEM = "options";
-const char S_nonetworks[]         PROGMEM = "No networks found. Refresh to scan again.";
-const char S_staticip[]           PROGMEM = "Static IP";
-const char S_staticgw[]           PROGMEM = "Static Gateway";
-const char S_staticdns[]          PROGMEM = "Static DNS";
-const char S_subnet[]             PROGMEM = "Subnet";
-const char S_exiting[]            PROGMEM = "Exiting";
-const char S_resetting[]          PROGMEM = "Module will reset in a few seconds.";
-const char S_closing[]            PROGMEM = "You can close the page, portal will continue to run";
-const char S_error[]              PROGMEM = "An Error Occured";
-const char S_notfound[]           PROGMEM = "File Not Found\n\n";
+const char S_titleparam[]         PROGMEM = "Configuracion";
+const char S_titleparamsaved[]    PROGMEM = "Configuración Guardada";
+const char S_titleexit[]          PROGMEM = "Salir";
+const char S_titlereset[]         PROGMEM = "Resetear";
+const char S_titleerase[]         PROGMEM = "Borrar";
+const char S_titleclose[]         PROGMEM = "Cerrar";
+const char S_options[]            PROGMEM = "Opciones";
+const char S_nonetworks[]         PROGMEM = "No se encontraron redes, escanear nuevamente.";
+const char S_staticip[]           PROGMEM = "IP estática";
+const char S_staticgw[]           PROGMEM = "Puerta de enlace";
+const char S_staticdns[]          PROGMEM = "DNS";
+const char S_subnet[]             PROGMEM = "Máscara";
+const char S_exiting[]            PROGMEM = "Saliendo";
+const char S_resetting[]          PROGMEM = "El módulo se reiniciara en unos segundos.";
+const char S_closing[]            PROGMEM = "Podés cerrar la página, el portal seguirá corriendo";
+const char S_error[]              PROGMEM = "Ocurrió un error";
+const char S_notfound[]           PROGMEM = "No se encontró el archivo\n\n";
 const char S_uri[]                PROGMEM = "URI: ";
-const char S_method[]             PROGMEM = "\nMethod: ";
-const char S_args[]               PROGMEM = "\nArguments: ";
+const char S_method[]             PROGMEM = "\nMétodo: ";
+const char S_args[]               PROGMEM = "\nArgumentos: ";
 const char S_parampre[]           PROGMEM = "param_";
 
 // debug strings
@@ -283,7 +283,7 @@ const char S_dns[]                PROGMEM = "dns";
 
 // softap ssid default prefix
 #ifdef ESP8266
-	const char S_ssidpre[]        PROGMEM = "ESP";
+	const char S_ssidpre[]        PROGMEM = "ageTech";
 #elif defined(ESP32)
 	const char S_ssidpre[]        PROGMEM = "ESP32";
 #else
